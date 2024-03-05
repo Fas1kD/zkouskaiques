@@ -1,3 +1,5 @@
+
+
 <?php
-echo "Ahoj světe";
+echo "Skvělá úžasná hra";
 ?>

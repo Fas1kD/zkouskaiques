@@ -1,0 +1,43 @@
+/*body barvaa*/
+body {
+    background-color: powderblue;
+
+
+
+/*nadpis h1*/
+
+  }
+  .header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px 10px;
+    color: blue;
+    text-align: center;
+  }
+
+
+ 
+  p {
+    color: red;
+
+  }
+
+.gametextstyle {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+
+    /*BORDER*/
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+    margin: 50px;  
+    padding: 20px;
+    text-align: center;
+    outline-offset: 2px;
+
+    
+    background-color: bisque;
+}
+
+
+
