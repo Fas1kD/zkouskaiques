@@ -5,6 +5,7 @@
         <meta charset="UTF - 8">
         <title>Moje stranecka</title>
         <link rel = "stylesheet" href = "css/styles.css">
+
     </head>
 
     <body>
@@ -18,18 +19,18 @@
 
 
         <main>
-            <p>AHOJ SVĚTE</p>
+            <p>Vítej na mé skvělé stránce kde si můžete zahrát ne jednu, ale hned dvě zcela funkční hry</p>
 
         </main>
         
 
-        <div class="text">
-            <?php include 'js/game.php'; ?>
-        </div>
+        <!-- hra-->
+        <?php include 'js/game.php'; ?>
 
 
         <!-- spodek stránky -->
         <?php include 'templates/footer.php'; ?>
+
 
         
     </body>
