@@ -10,9 +10,12 @@
 
 </head>
 <body>
-    <div class = gametextstyle>
-        <h1>Jednoduchá Hra - Hádej číslo</h1>
+    <div class = gametextstylee>
+
+        <h1>HRA - HÁDEJ ČÍSLO</h1>
         <p>Chci, abys hádal číslo mezi 1 a 5:</p>
+        <br>
+        <br>
         <form method="post">
             <input type="number" name="guessInput">
             <button type="submit">Odeslat</button>
@@ -33,6 +36,7 @@
         }
         ?>
     </div>
+
 
     
 

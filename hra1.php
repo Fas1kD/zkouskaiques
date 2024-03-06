@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <meta charset="UTF - 8">
-        <title>Moje stranecka</title>
+        <title>HRA 1</title>
         <link rel = "stylesheet" href = "css/styles.css">
 
     </head>
@@ -26,13 +26,12 @@
 
 
         <main>
-            <p>Vítej na mé skvělé stránce kde si můžete zahrát ne jednu, ale hned dvě zcela funkční hry</p>
 
         </main>
         
 
         <!-- hra-->
-        <?php include 'js/game.php'; ?>
+        <?php include 'js/game1.php'; ?>
 
 
         <!-- spodek stránky -->

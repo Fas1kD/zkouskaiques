@@ -13,6 +13,8 @@ body {
     padding: 20px 10px;
     color: blue;
     text-align: center;
+    margin-left:100px;
+    margin-right: 100px;
   }
 
 
@@ -20,6 +22,17 @@ body {
   p {
     color: red;
 
+  }
+
+
+  /*HR čáry*/
+  hr {
+    border-width: 0px;
+    color: grey;
+    background-color: grey  ;
+    height: 4px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
 .gametextstyle {
@@ -40,4 +53,45 @@ body {
 }
 
 
+.gametextstylee {
+  font-family: Arial, sans-serif;
+  text-align:center;
+  background-color: rgb(255, 7, 152);
+  border: 2px solid gray;
+  outline: greenyellow solid 10px;
+  font-size: 50px;
 
+  background-color: bisque;
+
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+
+}
+
+
+/* Menu Styles */
+.menu {
+  text-align: center;
+
+}
+
+
+
+
+
+/* tlačítka v menu */
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 3px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none ;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}

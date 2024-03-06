@@ -1,8 +1,8 @@
 
-
+<!-- Menu stránky, přechody na podstránky-->
 
 
 <?php
-echo "Skvělá úžasná hra ";
-echo "<p><a href ='js/game.php'</a>     </p>"
+echo "<p><a href= 'index.php'>  MENU </a>  <a href= 'hra1.php'> HRA číslo 1 </a>  </p>"; 
+echo "<hr>";
 ?>

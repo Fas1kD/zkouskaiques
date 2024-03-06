@@ -1,0 +1,7 @@
+
+index.php
+    -propojení s "header.php" - nadpis stránky
+    - "menu.php" - menu stránky, přechody na podstránky
+    - "game.php" - hra číslo1
+    - "footer.php" - konec stránky
+    
