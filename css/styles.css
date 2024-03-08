@@ -19,10 +19,7 @@ body {
 
 
  
-  p {
-    color: red;
 
-  }
 
 
   /*HR čáry*/
@@ -53,13 +50,19 @@ body {
 }
 
 
+.pvindex {
+  color:white;
+  margin:25px;
+}
+
+/*game1.php*/
 .gametextstylee {
   font-family: Arial, sans-serif;
   text-align:center;
   background-color: rgb(255, 7, 152);
   border: 2px solid gray;
   outline: greenyellow solid 10px;
-  font-size: 50px;
+  font-size: 45px;
 
   background-color: bisque;
 
@@ -75,6 +78,16 @@ body {
   text-align: center;
 
 }
+
+/*maintext v menu*/
+.indextext{
+  background-color: rgb(39, 39, 39);
+  margin: 25px;
+  border: 2px solid gray;
+  outline: blueviolet solid 10px;
+
+}
+
 
 
 
@@ -95,3 +108,4 @@ a:hover, a:active {
   background-color: green;
   color: white;
 }
+

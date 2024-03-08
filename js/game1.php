@@ -17,8 +17,8 @@
         <br>
         <br>
         <form method="post">
-            <input type="number" name="guessInput">
-            <button type="submit">Odeslat</button>
+            <input style ="height:50px; font-size: 50px" type="number" name="guessInput">   <!-- font-size - změna velikosti textu a somotného formuláře-->
+            <button style= "font-size: 40px" type="submit">Odeslat</button>
         </form>
 
         <?php
