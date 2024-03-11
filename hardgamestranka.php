@@ -8,7 +8,7 @@
 
     </head>
 
-    <body style="background-color:powderblue;">
+    <body style="background-color:#bb0606;" >
         
         <!-- NADPIS -->
         <header>
@@ -31,7 +31,7 @@
         
 
         <!-- hra-->
-        <?php include 'js/game1.php'; ?>
+        <?php include 'js/hardgame.php'; ?>
 
 
         <!-- spodek stránky -->

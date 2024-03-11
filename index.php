@@ -9,7 +9,7 @@
 
     </head>
 
-    <body>
+    <body style="background-color:lightblue;">
         
         <!-- NADPIS -->
         <header>

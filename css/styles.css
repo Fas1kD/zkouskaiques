@@ -1,12 +1,10 @@
 /*body barvaa*/
-body {
-    background-color: powderblue;
 
 
 
 /*nadpis h1*/
 
-  }
+  
   .header {
     background-color: #F1F1F1;
     text-align: center;
@@ -32,6 +30,9 @@ body {
     margin-right: 50px;
   }
 
+
+
+  /*hra na uvodni strance*/
 .gametextstyle {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -59,7 +60,7 @@ body {
 .gametextstylee {
   font-family: Arial, sans-serif;
   text-align:center;
-  background-color: rgb(255, 7, 152);
+  background-color: rgb(163, 70, 124);
   border: 2px solid gray;
   outline: greenyellow solid 10px;
   font-size: 45px;
@@ -71,6 +72,28 @@ body {
   margin-right: 250px;
 
 }
+
+
+/*Styl HARD HÁDEJ ČÍSLO*/
+.hardgamestyle {
+  font-family: Arial, sans-serif;
+  text-align:center;
+  background-color: rgb(255, 7, 152);
+  border: 10px solid black;
+  outline: rgb(129, 0, 0) solid 10px;
+  font-size: 45px;
+
+  background-color: rgb(240, 51, 51);
+
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+
+
+
 
 
 /* Menu Styles */
@@ -103,7 +126,7 @@ a:link, a:visited {
   text-decoration: none ;
   display: inline-block;
 }
-
+/*Aktivace tlačítka*/
 a:hover, a:active {
   background-color: green;
   color: white;
