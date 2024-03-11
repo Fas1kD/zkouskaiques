@@ -12,7 +12,7 @@
 <body>
     <div class = hardgamestyle>
 
-        <h1>HRA - HÁDEJ ČÍSLO</h1>
+        <h1>HRA - HÁDEJ ČÍSLO (HARDCORE)</h1>
         <p>Chci, abys hádal číslo mezi 1 a 100:</p>
         <br>
         <br>

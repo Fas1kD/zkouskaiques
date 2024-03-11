@@ -3,8 +3,10 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <meta charset="UTF - 8">
-        <title>HRA 1</title>
+        <title>HARDCORE Hádej Číslo</title>
         <link rel = "stylesheet" href = "css/styles.css">
+        <link rel= "icon" type="image/x-icon" href = "data/images/ovladac2.png">
+
 
     </head>
 
@@ -26,12 +28,24 @@
 
 
         <main>
+            <div class="texthard">
+                <p>Myslíš si že jsi dobrý v typování? <br> Zkus tento HARDCORE mód a uvidíme <br> 👇👇👇</p>
+            <div>
 
         </main>
+        <hr>
         
 
         <!-- hra-->
         <?php include 'js/hardgame.php'; ?>
+
+        <hr>
+
+        <div class="maintext">
+            <p>Od základu přepracovná hra na typování <br> HARDCORE MÓD výběr ze STA čísel <br> <b> Myslíš si že na to máš? </b></p>
+        </div>
+
+        <hr>
 
 
         <!-- spodek stránky -->

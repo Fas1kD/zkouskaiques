@@ -42,10 +42,14 @@
                 
 
         </main>
+
+        <hr>
         
 
         <!-- hra-->
         <?php include 'js/game.php'; ?>
+
+        <hr>
 
 
         <!-- spodek stránky -->

@@ -1,7 +1,7 @@
 
 
 <?php
-echo "<h1>SKVĚLÁ HRA</h1>";
+echo "<h1>MOJEE SKVĚLÉ HRY</h1>";
 ?>
 
 
