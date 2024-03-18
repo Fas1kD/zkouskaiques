@@ -9,7 +9,7 @@
 
     </head>
 
-    <body style="background-color:lightblue;">
+    <body style="background-color:powderblue;">
         
         <!-- NADPIS -->
         <header>
@@ -18,8 +18,8 @@
             </div>
         </header>
 
-        <hr>
 
+        <hr>
 
         <!-- MENU --> 
 
@@ -40,18 +40,18 @@
 
                 </div>
             </div>
+        
+           
 
                 
 
         </main>
-
-        <hr>
         
 
         <!-- hra-->
         <?php include 'js/game.php'; ?>
 
-        <hr>
+      
 
 
         <!-- spodek stránky -->
@@ -59,16 +59,18 @@
             <?php include 'templates/footer.php'; ?>
         </div>
 
-        <hr>    
+        <hr>
+        <br>
+        <br>
+        <br> 
+
+        <div class="odkazy">
+            <?php include 'templates/odkazy.php'; ?>
+        </div>
 
 
         
     </body>
-
-
-    <div class="odkazy">
-            <?php include 'templates/odkazy.php'; ?>
-    </div>
 
 
 
