@@ -13,6 +13,10 @@
     text-align: center;
     margin-left:100px;
     margin-right: 100px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -5px;
+    outline: white solid 8px;
   }
 
 
@@ -150,4 +154,35 @@ a:hover, a:active {
   background-color: green;
   color: white;
 }
+
+
+/*Zápatí footer style*/
+.footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  margin: 20px;
+  outline: black solid 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+
+
+}
+
+
+
+
+/*Odkazy na spodku stránky*/
+.odkazy {
+background-color: white;
+font-size: 20px;
+margin-left: -8px;
+margin-right: -8px;
+margin-bottom: -5px;
+outline: white solid 8px;
+
+}
+
+
 

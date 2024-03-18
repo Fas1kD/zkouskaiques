@@ -49,7 +49,16 @@
 
 
         <!-- spodek stránky -->
-        <?php include 'templates/footer.php'; ?>
+        <div class="footer">
+            <?php include 'templates/footer.php'; ?>
+        </div>
+
+        <hr>
+
+
+        <div class="odkazy">
+            <?php include 'templates/odkazy.php'; ?>
+        </div>
 
 
         

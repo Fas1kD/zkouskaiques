@@ -1,4 +1,7 @@
 
 <?php
-echo "tady se nedívej"
+echo "... ";
+echo "Tvůrce: 5Dominik"; 
+echo " ... <br>";
+
 ?>

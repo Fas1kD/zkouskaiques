@@ -39,14 +39,23 @@
 
         <main>
             <div class="maintext">
-                <p> Jednoduchá hra, zkus typnout číslo od 1 po 5, uvidíme jaké máš štěstí. <br> Jestli se ti tato hra přijde jedoduchá, můžeš zkusit HARDCORE mód (nahoře v menu). </p>
+                <p> Jednoduchá hra, zkus typnout číslo od 1 po 5, uvidíme jaké máš štěstí. <br> Jestli se ti tato hra přijde jedoduchá, můžeš zkusit HARDCORE mód: <a href= 'hardgamestranka.php' style="background-color: powderblue; border: 0px solid green;  "><u><b>HARDCORE MÓD</b></u> </a></p>
             </div>
         </main>
 
         <hr>
 
         <!-- spodek stránky -->
-        <?php include 'templates/footer.php'; ?>
+        <div class="footer">
+            <?php include 'templates/footer.php'; ?>
+        </div>
+
+        <hr>
+
+        <div class="odkazy">
+            <?php include 'templates/odkazy.php'; ?>
+        </div>
+
 
 
         

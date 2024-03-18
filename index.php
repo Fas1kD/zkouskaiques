@@ -18,6 +18,8 @@
             </div>
         </header>
 
+        <hr>
+
 
         <!-- MENU --> 
 
@@ -53,11 +55,20 @@
 
 
         <!-- spodek stránky -->
-        <?php include 'templates/footer.php'; ?>
+        <div class="footer">
+            <?php include 'templates/footer.php'; ?>
+        </div>
+
+        <hr>    
 
 
         
     </body>
+
+
+    <div class="odkazy">
+            <?php include 'templates/odkazy.php'; ?>
+    </div>
 
 
 
