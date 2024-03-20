@@ -155,7 +155,6 @@
 
 
 
-
 /* tlačítka v menu */
 a:link, a:visited {
   background-color: white;
@@ -171,6 +170,11 @@ a:hover, a:active {
   background-color: green;
   color: white;
 }
+
+
+
+
+
 
 
 /*Zápatí footer style*/
@@ -208,6 +212,9 @@ width: 100%;
 
 
 }
+
+
+
 
 
 
