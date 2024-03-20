@@ -11,22 +11,17 @@
 
     <body style="background-color:powderblue;">
         
-        <!-- NADPIS -->
+        <!-- NADPIS a MENU-->
         <header>
             <div class="header">
                 <?php include 'templates/header.php'; ?>    <!-- PHP přesměrování na složku header.php -->
             </div>
         </header>
-
-
         <hr>
+        
+        <?php include 'php/mezery.php';?>
 
-        <!-- MENU --> 
-
-        <div class="menu">
-            <?php include 'php/menu.php'; ?>
-        </div>
-
+       
 
         <main>
             <div class="indextext">
@@ -40,13 +35,12 @@
 
                 </div>
             </div>
-        
-           
-
-                
 
         </main>
-        
+
+        <br>
+        <br>
+        <hr>
 
         <!-- hra-->
         <?php include 'js/game.php'; ?>
@@ -60,9 +54,7 @@
         </div>
 
         <hr>
-        <br>
-        <br>
-        <br> 
+         
 
         <div class="odkazy">
             <?php include 'templates/odkazy.php'; ?>

@@ -16,6 +16,8 @@
     margin-right: -8px;
     margin-bottom: 8px;
     outline: white solid 8px;
+    position: fixed;
+    width: 100%;
   }
 
 
@@ -54,9 +56,13 @@
 }
 
 
+/*text ma index.php*/
 .pvindex {
   color:white;
   margin:25px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /*game1.php*/
@@ -86,10 +92,19 @@
 
 }
 
+/*Text na hoře stránky v hra1.php*/
+.hra1text {
+  color:rgb(233, 243, 247);
+  margin: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+
 /*text na stránku hra1.php*/
 .maintext {
   text-align: center;
   font-size: 25px;
+  
 
 }
 
@@ -124,12 +139,15 @@
 
 }
 
-/*maintext v menu*/
+/*text v index.php - ohraničení, mřížka*/
 .indextext{
   background-color: rgb(39, 39, 39);
   margin: 25px;
   border: 2px solid gray;
   outline: blueviolet solid 10px;
+
+  margin-left: 40px;
+  margin-right: 40px;
 
 }
 
@@ -184,8 +202,7 @@ outline: white solid 8px;
 padding: 20px 10px;
 color: blue;
 text-align: center;
-position: fixed;
-bottom: 0;
+
 width: 100%;
 
 

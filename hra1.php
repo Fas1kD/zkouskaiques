@@ -12,39 +12,45 @@
 
     <body style="background-color:powderblue;">
         
-        <!-- NADPIS -->
+        <!-- NADPIS a MENU-->
         <header>
             <div class="header">
                 <?php include 'templates/header.php'; ?>    <!-- PHP přesměrování na složku header.php -->
             </div>
         </header>
 
-        <hr>
+        <?php include 'php/mezery.php';?>
 
 
-        <!-- MENU --> 
 
-        <div class="menu">
-            <?php include 'php/menu.php'; ?>
+        <div class="hra1text">
+            <p> 
+                Hra hádeje číslo <br>
+                Můžeš vyzvat  své přátele a UŽÍT SI ZÁBAVU!!! <br>
+                😀😋😹
+            </p>
         </div>
 
-
-
-        <main>
-            <div class="maintext">
-                <p> Jednoduchá hra, zkus typnout číslo od 1 po 5, uvidíme jaké máš štěstí. <br> Jestli se ti tato hra přijde jedoduchá, můžeš zkusit HARDCORE mód: <br> <a href= 'hardgamestranka.php' style="background-color: powderblue; border: 0px solid green;  "><u><b>HARDCORE MÓD</b></u> </a></p>
-            </div>
-        </main>
-
         <hr>
-
         
         
 
         <!-- hra-->
         <?php include 'js/game1.php'; ?>
 
-       
+        
+        <hr>
+
+
+        <main>
+            <div class="maintext">
+                <p> 
+                    Jednoduchá hra, zkus typnout číslo od 1 po 5, uvidíme jaké máš štěstí. <br>
+                    Jestli se ti tato hra přijde jedoduchá, můžeš zkusit HARDCORE mód: 
+                    <a href= 'hardgamestranka.php' style="background-color: powderblue; border: 0px solid green;  "><u><b>HARDCORE MÓD</b></u> </a> 
+                </p>
+            </div>
+        </main>
 
         <hr>
 
@@ -54,9 +60,6 @@
         </div>
 
         <hr>
-        <br>
-        <br>
-        <br>    
 
         <div class="odkazy">
             <?php include 'templates/odkazy.php'; ?>

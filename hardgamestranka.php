@@ -12,21 +12,18 @@
 
     <body style="background-color:#bb0606;" >
         
-        <!-- NADPIS -->
+        <!-- NADPIS a MENU-->
         <header>
             <div class="header">
                 <?php include 'templates/header.php'; ?>    <!-- PHP přesměrování na složku header.php -->
             </div>
         </header>
 
-        <hr>
+        <?php include 'php/mezery.php';?>
 
 
-        <!-- MENU --> 
 
-        <div class="menu">
-            <?php include 'php/menu.php'; ?>
-        </div>
+
 
 
         <main>
@@ -44,7 +41,7 @@
         <hr>
 
         <div class="maintext">
-            <p>Od základu přepracovná hra na typování <br> HARDCORE MÓD výběr ze STA čísel <br> <b> Myslíš si že na to máš? </b></p>
+            <p>Od základu přepracovná hra na typování <br> HARDCORE MÓD výběr ze STA ČÍSEL!!! <br> <b> Myslíš si že na to máš? </b></p>
         </div>
 
         <hr>
@@ -56,11 +53,6 @@
         </div>
 
         <hr>
-        <br>
-        <br>
-        <br> 
-     
-
 
 
         <div class="odkazy">
